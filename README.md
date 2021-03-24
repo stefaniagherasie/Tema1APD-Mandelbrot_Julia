@@ -1,7 +1,18 @@
 # Tema1APD-Mandelbrot_Julia
 [Tema1 Algoritmi Paraleli si Distribuiti (2020-2021, seria CB)] 
 
-Generare paralela de fractali folosind multimile Mandelbrot si Julia. Tema presupune paralelizarea celor 2 algoritmi. 
+Generare paralela de fractali folosind multimile Mandelbrot si Julia. Tema presupune paralelizarea celor 2 algoritmi. <br>
+Enunt: https://curs.upb.ro/pluginfile.php/391650/mod_resource/content/3/Tema1.pdf
+
+#### COMPILARE SI RULARE
+      Secvential (in directorul skel)
+          - make
+          - ./tema1 <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot>
+      Paralel (in directorul sol)
+          - make
+          - ./tema1_par <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot> <P>
+
+#### IMPLEMENTARE
 
 Pentru a putea rula algoritmii unul dupa altul, am declarat 2 matrici result
 (result_m si result_j) care retin informatiile citite din fisier.
