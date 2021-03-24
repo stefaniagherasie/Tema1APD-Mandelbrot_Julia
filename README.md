@@ -5,12 +5,12 @@ Generare paralela de fractali folosind multimile Mandelbrot si Julia. Tema presu
 Enunt: https://curs.upb.ro/pluginfile.php/391650/mod_resource/content/3/Tema1.pdf
 
 #### COMPILARE SI RULARE
-      Secvential (in directorul skel)
-          - make
-          - ./tema1 <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot>
-      Paralel (in directorul sol)
-          - make
-          - ./tema1_par <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot> <P>
+      SECVENTIAL (in directorul skel)
+          ► make
+          ► ./tema1 <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot>
+      PARALEL (in directorul sol)
+          ► make
+          ► ./tema1_par <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot> <P>
 
 #### IMPLEMENTARE
 
