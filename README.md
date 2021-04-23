@@ -4,19 +4,19 @@
 Generare paralela de fractali folosind multimile Mandelbrot si Julia. Tema presupune paralelizarea celor 2 algoritmi. <br>
 Enunt: https://curs.upb.ro/pluginfile.php/391650/mod_resource/content/3/Tema1.pdf
 
-#### COMPILARE SI RULARE
-> ᐅ SECVENTIAL (in directorul skel)
-> ```shell
->     make
->     ./tema1 <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot>
-> ```
-> ᐅ PARALEL (in directorul sol)
-> ```shell
->     make
->     ./tema1_par <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot> <P>
-> ```
+## Compilare si Rulare
+ᐅ SECVENTIAL (in directorul skel)
+```shell
+    make
+    ./tema1 <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot>
+```
+ᐅ PARALEL (in directorul sol)
+```shell
+    make
+    ./tema1_par <input_julia> <output_julia> <input_mandelbrot> <output_mandelbrot> <P>
+```
 
-#### IMPLEMENTARE
+## Implementare
 
 Pentru a putea rula algoritmii unul dupa altul, am declarat 2 matrici result
 (`result_m` si `result_j`) care retin informatiile citite din fisier.
